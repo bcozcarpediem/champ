@@ -5,7 +5,7 @@
 
 оглавление:
 настройка випнет на 110 строке
-настройка випнет по гитхабовской (крутой) методичке на 154 строке
+настройка випнет по гитхабовской (крутой) методичке на 153 строке
 
 1. Настройка Active Directory и ALD Pro
 
@@ -32,7 +32,6 @@ sudo aldpro-server-install -d aldpro.lab -n <имя_сервера> -p <паро
 Настраивайте соединение: nmui > изменить соединение > IPv4 вручную > задавайте настройки.
 Меняйте hostname: hostnamectl set-hostname astra-cli.aldpro.lab.
 В /etc/hosts добавляйте: 172.16.1.3 dc.aldpro.lab dc.
-В /etc/apt/sources.list.d/aldpro.list указывайте: http://dl.astrolinux.ru/aldpro/stable/repository-extended/ generic main.
 Задавайте приоритет в /etc/apt/preferences.d/aldpro.
 
 1.7. Установка клиента и ввод в домен
